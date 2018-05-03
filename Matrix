@@ -4,7 +4,7 @@ class Matrix :
 
     # constructor
     def __init__(self, matrix, copy_matrix, matrix_a, matrix_b, minor):
-        self.matrix = matrix #is for transpose and trace
+        self.matrix = matrix #is for transpose, trace, determinant and inverse
         self.copy_matrix = copy_matrix # is generally used for scalar multiplication.
         # It may change (square or not square) we can do it square matrix with setter method (comment line for copy_matrix)
         self.matrix_a = matrix_a # matrix_a and matrix_b are for matrix multiplication
