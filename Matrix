@@ -13,7 +13,7 @@ class Matrix :
 
 
 
-    #sets random matrix for transpose and trace (just for verifying or tracing my code )
+    #sets random matrix for transpose,trace, determinant and inverse (just for verifying or tracing my code )
     def set_square_matrix (self, n):
         # list of list structure for square matrix
         for i in range(n):
