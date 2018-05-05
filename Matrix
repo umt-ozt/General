@@ -160,10 +160,10 @@ class Matrix :
             # we guarantee that diagonals are 1
             if first_non_zero != i:
                 matrix_ = self.swap_row(matrix_, i, first_non_zero)
-            # Divide X[i] by X[i][j] to make X[i][j] equal 1 (a row operation)
+            # Divide matrix[i] by matrix[i][j] to make matrix[i][j] equal 1 (a row operation)
             matrix_[i] = [m / matrix_[i][j] for m in matrix_[i]]
 
-            # Rescale all other rows to make their values 0 below X[i][j]
+            # Rescale all other rows to make their values 0 below matrix[i][j]
             for q in range(0, rows):
                 if q != i:
                     scaled_row = [matrix_[q][j] * m for m in matrix_[i]]
