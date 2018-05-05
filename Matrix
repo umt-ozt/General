@@ -211,7 +211,6 @@ class Matrix :
             i - row index
             j - column index
             returns -
-                zero_sum - the count of non zero entries
                 first_non_zero - index of the first non value
             """
         first_non_zero = -1
