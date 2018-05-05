@@ -206,7 +206,7 @@ class Matrix :
 
     def check_for_zeros (self,matrix,i,j):
         """
-            Check matrix X to see if only zeros exist at or below row i in column j
+            Check matrix to see if only zeros exist at or below row i in column j
             global matrix - a list of lists
             i - row index
             j - column index
